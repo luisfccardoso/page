@@ -1,0 +1,236 @@
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.about-hero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 0 3rem 0;
+  border-bottom: 3px solid #2f2f2f;
+  margin-bottom: 2rem;
+}
+
+.about-profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #2f2f2f;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+.about-hero h1 {
+  margin: 0 0 0.5rem 0;
+  color: #2f2f2f;
+  font-size: 2.5rem;
+}
+
+.about-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.role-item {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.role-label {
+  font-weight: 500;
+  color: #2f2f2f;
+}
+
+.role-separator {
+  color: #999;
+  font-weight: 300;
+}
+
+.role-item a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.role-item a:hover {
+  color: #555;
+  border-bottom: 2px solid #555;
+}
+
+.about-contact {
+  margin-top: 1.5rem;
+}
+
+.about-contact a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+.about-contact a:hover {
+  color: #555;
+  border-bottom: 2px solid #555;
+}
+
+.about-section {
+  margin: 3rem 0;
+}
+
+.about-section h2 {
+  color: #2f2f2f;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.about-section > p {
+  text-align: justify;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.area-card {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+  border-radius: 12px;
+  border-top: 4px solid #2f2f2f;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.area-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.area-card h3 {
+  color: #2f2f2f;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.area-card p {
+  color: #555;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.language-item {
+  padding: 1.2rem 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border-left: 4px solid #2f2f2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.language-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.language-name {
+  color: #2f2f2f;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.language-level {
+  color: #666;
+  font-size: 0.95rem;
+  background-color: #e0e0e0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-hero {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .about-profile-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-roles {
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .role-item {
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .role-separator {
+    display: none;
+  }
+
+  .about-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-section > p {
+    font-size: 1rem;
+  }
+
+  .areas-grid,
+  .languages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .language-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
