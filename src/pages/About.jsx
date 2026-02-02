@@ -41,7 +41,7 @@ export default function About() {
         <h2>Áreas de Atuação</h2>
         <div className="areas-grid">
           <div className="area-card">
-            <h3>Atuação Profissional</h3>
+            <h3>Profissional</h3>
             <p>Trabalho na área de Análise e Governança de Dados e de Desenvolvimento de Soluções Tecnológicas no setor público e em consultorias.</p>
           </div>
           <div className="area-card">
