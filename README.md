@@ -4,9 +4,9 @@ Site pessoal com informações profissionais, acadêmicas e de ensino.
 
 🔗 **[Acesse o site](https://luisfccardoso.github.io)**
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
-Site profissional desenvolvido para apresentar minha trajetória acadêmica, experiência profissional, publicações científicas e atividades de ensino. O projeto foi construído com foco em design responsivo, navegação intuitiva e organização clara das informações.
+Site profissional desenvolvido para apresentar minha trajetória acadêmica, experiência profissional, publicações científicas e atividades de ensino. 
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -17,7 +17,7 @@ Site profissional desenvolvido para apresentar minha trajetória acadêmica, exp
 - **CSS3** - Estilização e animações
 - **GitHub Pages** - Hospedagem
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 teaching/
@@ -34,15 +34,7 @@ teaching/
 └── package.json          # Dependências e scripts
 ```
 
-## 📄 Páginas do Site
-
-### 🏠 Sobre
-Página principal com foto, cargos atuais, apresentação pessoal e áreas de atuação.
-
-### 📚 Ensino
-Disciplinas ministradas, cursos de curta duração, áreas de interesse e projetos de extensão.
-
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Node.js (versão 16 ou superior)
@@ -71,7 +63,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## 📦 Build e Deploy
+## Build e Deploy
 
 ### Build de Produção
 ```bash
@@ -88,22 +80,9 @@ O comando acima irá:
 2. Publicar os arquivos na branch `gh-pages`
 3. Atualizar o site automaticamente
 
-## 🔗 Links
-
-- **GitHub**: [luisfccardoso](https://github.com/luisfccardoso)
-- **LinkedIn**: [luisfccardoso](https://www.linkedin.com/in/luisfccardoso/)
-- **Lattes**: [4040261537212229](http://lattes.cnpq.br/4040261537212229)
-- **ORCID**: [0000-0002-5647-9941](https://orcid.org/0000-0002-5647-9941)
-- **ResearchGate**: [Luis-Filipe-Campos-Cardoso](https://www.researchgate.net/profile/Luis-Filipe-Campos-Cardoso)
-- **Google Scholar**: [qAjBblgAAAAJ](https://scholar.google.com.br/citations?user=qAjBblgAAAAJ)
-
-## 📧 Contato
+## Contato
 
 **Email**: luisfilipe.tec@gmail.com
-
-## 📝 Licença
-
-Este projeto é de uso pessoal.
 
 ---
 
